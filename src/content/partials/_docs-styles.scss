@@ -1,0 +1,50 @@
+@import "./_sizes.scss";
+
+$main-titles: rgba(0, 0, 0, 0.67);
+$para-text: rgba(0, 0, 0, 0.6);
+$accent-color: #26d0ce;
+$primary-color: #1a2980;
+.header-section {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: rem(16) 0;
+  .underline {
+    margin-top: rem(16);
+    height: rem(5);
+    width: rem(100);
+    background: $accent-color;
+  }
+}
+.page-title {
+  font-size: rem(36);
+  color: $main-titles;
+  font-weight: 500;
+}
+.description-wrap {
+  margin: rem(34) 0;
+  line-height: rem(20);
+  font-size: rem(16);
+  color: $para-text;
+}
+
+.skill-wrap {
+  margin: rem(24) 0;
+  .skills-title {
+    font-size: rem(18);
+    font-weight: 500;
+    line-height: rem(22);
+    margin: rem(4) 0;
+  }
+  .skill {
+    .skill-title {
+      line-height: 1.3;
+    }
+  }
+}
+
+.bar {
+  height: rem(14) !important;
+  margin: rem(8) 0;
+  border-radius: rem(100);
+}

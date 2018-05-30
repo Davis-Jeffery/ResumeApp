@@ -1,0 +1,31 @@
+@import "~src/content/partials/_sizes";
+
+.site-wrap {
+  display: grid;
+  grid-template-columns: 75% auto;
+  width: 100vw;
+  height: 100vh;
+  .nav-and-info {
+    position: relative;
+    background: linear-gradient(
+        180deg,
+        rgba(26, 41, 128, 0.8) 0%,
+        rgba(38, 208, 206, 0.8) 100%
+      ),
+      url("../content/images/landscape-mountains-nature-15382.jpg") no-repeat
+        center center fixed;
+    background-size: cover;
+    // &:after {
+    //   fill: Linear Gradient #1a2980 0% #26d0ce 100%;
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   right: 0;
+    //   bottom: 0;
+    // }
+  }
+  .content-section {
+    overflow: auto;
+    padding: rem(24) rem(40);
+  }
+}

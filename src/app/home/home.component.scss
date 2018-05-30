@@ -1,0 +1,14 @@
+@import "~src/content/partials/_sizes";
+
+.image-wrap {
+  position: fixed;
+  left: calc(75% - 290px);
+  top: 50%;
+  transform: translateY(-50%);
+  max-width: rem(581);
+  height: rem(404);
+  width: 100%;
+  background: url("../../content/images/20229906_10154793481597671_8135024998649390551_o.jpg")
+    no-repeat center center;
+  background-size: cover;
+}
